@@ -29,7 +29,7 @@ TB_ICE = (km * B_ICE)                                       #ICE bomavgift total
 #Output
 time.sleep (0.1)
 print ()
-print ("Totalkostnad ved",km,"km årlig kjørelengde")
+print ("Totalkostnad ved",km,"km årlig kjørelengde")        #Print med km input variabel
 print ()
 time.sleep (0.1)
 print ("EV  -> NOK -",int(TEV_C+TFA+I_EV+TB_EV),",-")       #Legger sammen aktuelle variabler for EV

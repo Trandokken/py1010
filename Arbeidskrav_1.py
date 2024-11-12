@@ -14,7 +14,7 @@ time.sleep (0.5)
 #Input
 km = int(input ("-->"))                                     #Total kjørelengde i km
 
-EV_C = (0.2 / 2)                                            #EV forbrukskostnad pr km i NOK
+EV_C = (0.2 * 2)                                            #EV forbrukskostnad pr km i NOK
 TEV_C = (km * EV_C)                                         #EV forbrukskostnad totalt pr år i NOK (basert på input)
 ICE_C = (1.0)                                               #ICE forbrukskostnad pr km i NOK
 TICE_C = (km * ICE_C)                                       #ICE forbrukskostnad totalt pr år i NOK (basert på input)

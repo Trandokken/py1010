@@ -66,8 +66,7 @@ def oppgave_3():
         except ValueError:
             print("Ugyldig tall!")
 
-            #Oppgave 3: Dictionary
-#Oppgave 3: Dictionary
+#Oppgave 4: Dictionary
 def oppgave_4():
     while True:
         try:
